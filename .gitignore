@@ -1,0 +1,38 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code-specific ignores
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Data files (optional, depending on what you want to exclude)
+data/*.json
+data/*.csv
+data/*.xlsx
+
+# Ignore compiled code
+*.so
+
+# Ignore environments
+.env
+.venv
